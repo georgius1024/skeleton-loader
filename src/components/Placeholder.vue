@@ -19,23 +19,25 @@ export default {
 };
 </script>
 <style lang="scss">
+$placeholsder-color: #c0c0c0;
 .placeholder {
-  background: rgb(204, 204, 204);
+  background: $placeholsder-color;
+  border: 1px solid darken($placeholsder-color, 10%);
   position: relative;
   overflow: hidden;
   &:after {
-    content: "";
+    content: " ";
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
     position: absolute;
-    // transform: translateX(-100%);
+    transform: translateX(-100%);
     background: linear-gradient(
       90deg,
-      rgba(204, 204, 204, 1) 0%,
-      rgba(151, 151, 151, 0.3) 50%,
-      rgba(204, 204, 204, 1) 100%
+      rgba($placeholsder-color, 1) 0%,
+      rgba(darken($placeholsder-color, 15%), 0.3) 50%,
+      rgba($placeholsder-color, 1) 100%
     );
     animation: placeholder-loading-animation linear 1.5s infinite;
   }
