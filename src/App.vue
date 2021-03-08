@@ -17,8 +17,8 @@
     </div>
   </div>
   <div class="row">
-    <div>
-      <Placeholder type="avatar"/>
+    <div class="col">
+      <Placeholder />
     </div>
     <div class="col">
       <Placeholder />
@@ -27,6 +27,52 @@
       <Placeholder />
     </div>
   </div>
+  <div class="row" style="height: 200px">
+      <Placeholder type="picture" />
+    </div>
+
+  <div class="row">
+    <div style="min-width: 240px">
+      <Placeholder type="header" />
+    </div>
+    <div class="col"></div>
+  </div>
+
+  <div class="row">
+    <div>
+      <Placeholder type="avatar"/>
+    </div>
+    <div class="col">
+      <Placeholder />
+    </div>
+  </div>
+  <div class="row">
+    <div>
+      <Placeholder type="avatar"/>
+    </div>
+    <div class="col">
+      <Placeholder />
+    </div>
+  </div>
+
+  <div class="row">
+    <div>
+      <Placeholder type="avatar"/>
+    </div>
+    <div class="col">
+      <Placeholder />
+    </div>
+  </div>
+
+  <div class="row">
+    <div>
+      <Placeholder type="avatar"/>
+    </div>
+    <div class="col">
+      <Placeholder />
+    </div>
+  </div>
+
   <div class="row">
     <div class="col"></div>
     <div style="min-width: 140px">
@@ -36,7 +82,6 @@
       <Placeholder type="button" />
     </div>
   </div>
-
 </template>
 
 <script>
@@ -62,6 +107,9 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .row {
   display: flex;

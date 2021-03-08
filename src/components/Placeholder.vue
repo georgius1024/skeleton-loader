@@ -66,7 +66,9 @@ export default {
     margin: 0 18px 18px 0;
   }
   &.placeholder-picture {
-    display: block;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
     border-radius: 0;
     margin: 0 18px 18px 0;
   }
@@ -74,12 +76,6 @@ export default {
 }
 
 @keyframes placeholder-loading-animation {
-  // 0% {
-  //   transform: translate3d(-100%);
-  // }
-  // 100% {
-  //   transform: translate3d(100%);
-  // }
   0% {
     transform: translateX(-100%);
   }
