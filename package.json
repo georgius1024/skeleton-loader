@@ -1,7 +1,7 @@
 {
   "name": "placeholders",
   "version": "0.0.0",
-  "homepage": "http://georgius1024.github.io/skeleton-loader",
+  "homepage": "https://georgius1024.github.io/skeleton-loader/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
